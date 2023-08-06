@@ -14,6 +14,7 @@ body {
   transition: all 0.12s;
 }
 
+/* Estilização do Cabeçalho da página */
 .cabecalho {
   width: 100vw;
   height: 12vh;
