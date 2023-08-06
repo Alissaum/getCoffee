@@ -6,3 +6,49 @@
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
 }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  transition: all 0.12s;
+}
+
+.cabecalho {
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 1rem;
+  box-shadow: 0 1px 12px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cabecalho section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.cabecalho nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.cabecalho nav ul li {
+  margin: 0 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cabecalho nav ul li:hover {
+  scale: 1.1;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 900;
+  transform: translateY(-10%);
+}
